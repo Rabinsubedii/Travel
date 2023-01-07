@@ -1,0 +1,714 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* start top navabr css */
+.whole-navbar {
+    position: relative;
+    background-color: #3065A3;
+    height: 100px;
+    width: 100%;
+}
+
+.top-navbar {
+    /* position: relative; */
+    background-color: #3065A3;
+    /* height: 100px; */
+    box-sizing: border-box;
+    /* padding: 13px 10px; */
+    /* border: 2px solid red; */
+}
+
+.topnav-left-content {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    top: 8px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.topnav-left-content a {
+    /* display: inline-block; */
+    font-size: 0.9rem;
+    padding: 0px 10px;
+    font-weight: 300;
+    cursor: pointer;
+    color: #ffff;
+}
+
+.topnav-left-content a:hover,
+.topnav-right-content a:hover {
+    text-decoration: none;
+}
+
+.topnav-right-content {
+    position: relative;
+    display: flex;
+    justify-content: right;
+    bottom: 30px;
+}
+
+.topnav-right-content a img {
+    height: 20px;
+    width: 100%;
+}
+
+.topnav-right-content a {
+    /* display: inline-block; */
+    font-size: 0.9rem;
+    padding: 0px 10px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #ffff;
+}
+
+/* end top navabr css */
+
+/* start main navabr css */
+
+nav {
+    position: relative;
+    bottom: 20px;
+    height: 61px;
+    width: 100%;
+    background-color: #ffff;
+}
+
+.navbar-brand {
+    color: #000000;
+    font-weight: 400;
+    font-weight: 600;
+    font-size: 2.6rem
+}
+
+.navbar-brand:hover {
+    color: #000000;
+    font-weight: 600;
+    font-size: 2.6rem
+}
+
+.navbar-nav {
+    position: relative;
+    left: 30px;
+    top: 8px;
+}
+
+#home-menu {
+    color: #3065A3;
+}
+
+nav div ul li {
+    padding: 0px 30px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-right: 30px;
+}
+
+/* end main navabr css */
+
+/* start first body section css*/
+.first-body-section {
+    /* position: relative; */
+    height: 575px;
+    object-fit: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    color: white;
+    background-image: url('../images/home-image.png');
+}
+
+.home-image {
+    height: 575px;
+    object-fit: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(.jpg);
+}
+
+.body-content {
+    position: relative;
+    padding: 49px 1px;
+    margin: 48px 11px 0px 0px;
+}
+
+.body-content h3 {
+    font-size: 4.3rem;
+    font-weight: 600;
+}
+
+.search-form input {
+    width: 400px;
+    border-radius: 0px;
+    font-weight: 400;
+    font-size: 17px;
+    color: #000000;
+}
+
+.search-form ::placeholder {
+    color: #000000;
+    opacity: 1;
+}
+
+.search-form .form-group {
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+
+.search-button {
+    position: relative;
+    width: 138px;
+    height: 47px;
+    border: none;
+    color: #ffff;
+    font-weight: 500;
+    font-size: 1.2rem;
+    background: #D51111;
+    border-radius: 0px;
+    left: 30px;
+    cursor: pointer;
+}
+
+.book-now {
+    position: relative;
+    top: 30px;
+    background: #325580;
+    border-radius: 0px;
+    border: none;
+    width: 207px;
+    color: #ffff;
+    font-weight: 500;
+    left: 5px;
+    height: 45px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+/* end first body section css */
+
+/* start body card css */
+.body-box {
+    position: relative;
+    bottom: 84px;
+    height: 335px;
+    box-shadow: 3px 3px 4px 4px rgba(0, 0, 0, 0.26);
+    border-radius: 5px;
+    padding: 30px 20px;
+    margin: 0px 5px 0px 5px;
+    background-color: #ffff;
+
+}
+
+.parent-wrapper {
+    display: flex;
+    height: 273px
+}
+
+.child {
+    flex: 1;
+}
+
+.child:last-child {
+    flex: 1;
+}
+
+.single-child {
+    display: flex;
+}
+
+.single-child:last-child {
+    display: flex;
+}
+
+.card-child {
+    flex: 1;
+}
+
+.card-child:last-child {
+    flex: 1;
+}
+
+.card-body-image {
+    background-image: url("../images/card-body-image.png");
+    height: 273px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.box-card-body {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.box-card-body img {
+    height: 50px;
+    width: 50px;
+}
+
+/* end body card css */
+
+/* start feature tours */
+.feature-section {
+    position: relative;
+    bottom: 30px;
+    background-color: #ffffff;
+    padding: 15px 19px;
+}
+
+.feature-section h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+
+.flex-parent {
+    display: flex;
+    margin-top: 30px;
+}
+
+.feature-child {
+    flex: 1;
+}
+
+.feature-child:last-child {
+    flex: 1;
+}
+
+.feature-child .card {
+    margin-right: 75px;
+    border-radius: 10px;
+    height: 370px;
+    width: 20rem;
+    /* padding: 0px 3px; */
+}
+
+.tour-image {
+    position: relative;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    object-fit: cover;
+}
+
+.tour-price {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    color: #F30B0B;
+}
+
+.tour-day {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    display: flex;
+    opacity: 0.5;
+    float: right;
+}
+
+.tour-title {
+    font-weight: 500;
+    font-size: 1.4rem;
+    text-align: start;
+}
+
+.tour-description {
+    font-weight: 400;
+    font-size: 0.8rem;
+    text-align: justify;
+}
+
+/* end feature tours */
+
+/* start recommendation section css */
+.recommendation-section {
+    position: relative;
+    bottom: 30px;
+    background-color: #ffffff;
+    padding: 15px 19px;
+}
+
+#recommendation-cards {
+    margin-top: 30px;
+}
+
+.recommendation-section h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+
+.recommendation-first-card {
+    background-image: url("../images/recommendation-first.png");
+    border-radius: 10px;
+    height: 544px;
+
+}
+
+.recommendation-second-card {
+    background-image: url("../images/recommendation-second.png");
+    border-radius: 10px;
+    height: 544px;
+
+}
+
+.recommendation-third-card {
+    background-image: url("../images/recommendation-third.png");
+    border-radius: 10px;
+    height: 544px;
+
+}
+
+.recommendation-overlay {
+    height: 544px;
+    border-radius: 10px;
+    padding: 20px 10px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(.jpg);
+}
+
+.recommendation-content {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.recommendation-content h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.recommendation-info {
+    text-align: right;
+    float: right;
+}
+
+.recommendation-content p {
+    color: rgb(165, 160, 160);
+
+}
+
+#recommendation-price {
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: rgb(165, 160, 160);
+}
+
+.book-button {
+    width: 208px;
+    padding: 5px 23px;
+    height: 31px;
+    color: #000000;
+    background: rgba(217, 217, 217, 0.53);
+}
+
+.book-button:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* end recommendation section css */
+
+/* start footer css */
+footer {
+    position: relative;
+    background-color: #3065A3;
+    padding: 25px 0px;
+    margin-top: 20px;
+
+}
+
+.footer-parent-wrapper {
+    position: relative;
+    display: flex;
+}
+
+.footer-child {
+    flex: 1.5;
+}
+
+.footer-child:last-child {
+    flex: 1.5;
+}
+
+.footer-title {
+    color: #ffffff;
+    text-align: justify;
+}
+
+.footer-title h4 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.footer-title p {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.footer-menu {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
+
+.footer-menu p {
+    color: #fff;
+    /* text-align: start; */
+    font-size: 1.9;
+    font-weight: 500;
+}
+
+.footer-menu ul li {
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1rem;
+    padding: 10px 0px;
+}
+
+.footer-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-menu ul li a:hover {
+    color: rgb(161, 158, 158);
+    text-decoration: none;
+}
+
+.footer-contact p {
+    color: #fff;
+    font-weight: 500;
+}
+
+#footer-contact {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+#footer-contact-number {
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+.footer-copyright {
+    text-align: center;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+/* end footer css */
+
+/* mediaquery css i pad */
+@media only screen and (min-width: 768px) and (max-width: 820px) {
+
+    section{
+        overflow: hidden;
+    }
+    .parent-wrapper {
+        flex-direction: column;
+    }
+
+    .navbar {
+        height: auto;
+        top: 17px;
+    }
+
+    .whole-navbar {
+        height: 166px;
+    }
+
+    .topnav-right-content {
+        position: relative;
+        display: flex;
+        justify-content: left;
+        bottom: 0px;
+    }
+
+    .feature-child .card {
+        margin-right: 75px;
+        border-radius: 10px;
+        height: 270px;
+        width: 11rem;
+        /* padding: 0px 3px; */
+    }
+
+
+    .body-content h3 {
+        font-size: 2.3rem;
+        font-weight: 600;
+    }
+
+    .first-body-section {
+        height: 449px;
+    }
+
+    .body-box {
+        height: 591px;
+
+    }
+
+    .tour-price {
+
+        font-size: 0.8rem;
+    }
+
+    .tour-title {
+        font-size: 1rem;
+    }
+
+    .tour-description {
+        font-size: 0.6rem;
+    }
+
+    .tour-day {
+
+        font-size: 0.7rem;
+    }
+
+    .recommendation-second-card {
+        height: 350px;
+    }
+
+    .recommendation-first-card {
+        height: 350px;
+    }
+
+    .recommendation-third-card {
+        height: 350px;
+    }
+
+    .recommendation-overlay {
+        height: 350px;
+    }
+
+}
+
+/* mediaquery css phones */
+@media only screen and (min-width: 320px) and (max-width: 668px) {
+
+    .parent-wrapper,
+    .flex-parent,
+    .footer-parent-wrapper,
+    .child,
+    .single-child {
+        flex-direction: column;
+    }
+
+    .navbar {
+        height: auto;
+        top: 17px;
+    }
+
+    .whole-navbar {
+        height: 166px;
+    }
+
+    .topnav-right-content {
+        position: relative;
+        display: flex;
+        justify-content: left;
+        bottom: 0px;
+    }
+
+    .first-body-section {
+        height: 415px;
+    }
+
+    .home-image {
+        height: 415px;
+    }
+
+    .body-content h3 {
+        font-size: 1.5rem;
+    }
+
+    .search-form input {
+        width: 240px;
+    }
+
+    .search-button {
+        width: 80px;
+        left: 10px;
+    }
+
+    .book-now {
+        width: 141px;
+    }
+
+    .body-box {
+        bottom: 80px;
+        height: 880px;
+    }
+
+    .card-child {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .feature-child .card {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+
+    #recommendation-cards,
+    .flex-parent {
+        margin-top: 10px;
+    }
+
+    .recommendation-section h2,
+    .feature-section h2 {
+        font-size: 1.8rem;
+    }
+
+    .feature-child,
+    #recommendation-cards .col-md-4 {
+        margin-top: 20px;
+    }
+
+    .footer-menu {
+        display: none;
+    }
+
+    .footer-title h4 {
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    #contact-us-title {
+        color: #fff;
+        font-weight: 800;
+        font-size: 2rem;
+    }
+}
+/* surface pro 7  */
+/* surface pro ----------- */
+/* @media only screen and (min-device-width : 720px) and (max-device-width : 1280px) {
+
+   .flex-parent{
+    flex-direction: column;
+   }
+} */
